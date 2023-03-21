@@ -1,0 +1,189 @@
+.flex_container_page{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 30px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.image1 {
+    display: flex;
+    flex: 1 1 25%;
+    margin-bottom: 20px;
+    max-width: 1500px;
+    position: relative;
+    background-position: center center;
+   margin :150px;
+  
+  }
+  .image1 {
+    max-width:80% ;
+
+    box-shadow:rgb(13, 16, 15) 1px 0 15px ;
+  }
+  
+  .titre {
+    
+    display: flex;
+    margin-left: 100px;
+    position:initial;
+    top: 100px;
+    font-style: bold ;
+    justify-content: left;
+    color :#21443d ;
+    padding: 50px;
+    font-size: 50px;
+    margin:50px;
+  
+   
+  }
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    font-size:large;
+   margin: 10%;
+   margin-top:  25px;
+   font-size: 25px;
+   justify-content: right ;
+  }
+  .btnR {
+    height: 10px auto;
+    max-width: 150px;
+    margin:20px auto;
+    background: #0aa699;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 35px;
+    padding-right: 35px ;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-style:solid;
+    margin: left 50%;
+    border: 0px ;
+    border-style:groove ;
+    font-size: large;
+    margin-top: 100px;
+    
+   
+  }
+
+ 
+
+
+
+
+  
+  .pic-ctn {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    
+    margin: 100px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    display: flex;
+    flex: 1 1 25%;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic_ctn > img {
+    position: absolute;
+    margin:20px;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  .pic_ctn img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  .pic_ctn img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  .pic_ctn img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  .pic_ctn img:nth-child(5) {
+    animation-delay: 8s;
+  }
+ .fancy{
+  display: flex;
+  margin-left: 100px;
+  position:relative;
+  top: 1px;
+  font-style: bold ;
+  justify-content: Left;
+  color : rgb(8,116,109); 
+  font-family: Georgia, serif;
+  text-decoration : underline;
+  font-size: 50px;
+  margin-top: 40px;
+  
+
+
+
+ }
+ //*************************yasmina's work**************************************** 
+
+ .cc{
+  width: 400px !important;
+ }
+ .carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel-item {
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.carousel-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
