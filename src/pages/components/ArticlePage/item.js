@@ -6,10 +6,9 @@ export const items = [
       "Le gouvernement tunisien encourage la population à utiliser les énergies renouvelables depuis 2014.Ils ont également investi dans de nouvelles centrales éoliennes et photovoltaïques. Ils prévoient également d&#39;accroître leur dépendance aux énergies renouvelables pour lutter contre le changement climatique. C&#39;est une bonne nouvelle pour l&#39;environnement, mais c&#39;est aussi une bonne nouvelle pour l&#39;économie du pays.",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-    image1:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+    image1: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Test.svg",
     image2:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHJD-w-JoMlVP2F-tW7aGV-vxax_ynLuyYNVLCgfhGg&s",
   },
   {
     id: "2",

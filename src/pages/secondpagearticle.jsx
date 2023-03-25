@@ -41,44 +41,87 @@ export default function SecondPageArticle(id) {
 
         {/*  <h1>{items[parseInt(id1)].id}</h1> */}
         {article ? (
-          <Carousel>
+          <div className="card-title">
+            <h3>{article.title}</h3>
+            <style jsx>{`
+              .card-title {
+                font-size: 2rem;
+                text-align: center;
+                padding: 10px;
+              }
+            `}</style>
+          </div>
+        ) : (
+          <></>
+        )}
+        {article ? (
+          <Carousel fade className="activeCarroussel">
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className={styles.imageCarroussel}
                 src={article.image}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>{article.title}</h3>
-                <p>{article.content}</p>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100 cc"
+                className={styles.imageCarroussel}
                 src={article.image1}
-                alt="First slide"
-                width="400"
+                alt=" sec slide"
               />
-              <Carousel.Caption>
-                <h3>{article.title}</h3>
-                <p>{article.content}</p>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className={styles.imageCarroussel}
                 src={article.image2}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>{article.title}</h3>
-                <p>{article.content}</p>
-              </Carousel.Caption>
             </Carousel.Item>
-          </Carousel>
-        ) : null}
 
+            {/* <a
+              className="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Previous</span>
+            </a> */}
+            {/* <a
+                className="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Next</span>
+              </a> */}
+          </Carousel>
+        ) : (
+          <></>
+        )}
+        {article ? (
+          <div className="card">
+            <div className="card-content">
+              <p>{article.content}</p>
+              <style jsx>{`
+                .card-content {
+                  font-size: 2rem;
+                  text-align: center;
+                  padding: 10px;
+                }
+              `}</style>
+            </div>
+          </div>
+        ) : (
+          <></>
+        )}
         <button
           className={styles.btnR}
           onClick={() => {

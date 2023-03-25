@@ -22,23 +22,23 @@ export default function Home() {
       <main>
         <div>
           <Navbar />
-          
+
           <BootstrapCarousel />
 
-          <Progress/>
+          <Progress />
 
-          <Titres text="Découvrir nos services"/>
-          
+          <Titres text="Découvrir nos services" />
+
           <Services />
-          <Titres text="Nos projets réferents"/>
+          <Titres text="Nos projets réferents" />
           <Projets />
-          <Titres text="Pour savoir plus sur l'energie solaire vous pouvez lire ces articles"/>
-          <Blogs/><Titres text="NOS PARTENAIRES"/>
+          <Titres text="Pour savoir plus sur l'energie solaire vous pouvez lire ces articles" />
+          <Blogs />
+          <Titres text="NOS PARTENAIRES" />
 
-          <Partenariat/>
-         
+          <Partenariat />
+
           <Footer />
-         
         </div>
       </main>
     </>

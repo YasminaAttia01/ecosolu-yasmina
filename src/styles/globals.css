@@ -797,3 +797,10 @@ ul {
 body{
   background-color:#eeeeee ;
 }
+
+.activeCarroussel{
+  height: 50vh;
+}
+.carousel-item{
+  height: 50vh!important;
+}
